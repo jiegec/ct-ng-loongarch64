@@ -2,15 +2,16 @@
 
 Build loongarch64-unknown-linux-gnu toolchain with crosstool-ng.
 
-It uses:
+It contains:
 
 1. Upstream gcc 13.0.0 & binutils-gdb 2.38.50
-2. Loongson glibc & linux
+2. Loongson [glibc loongarch_2_34_dev branch](https://github.com/loongson/glibc/tree/loongarch_2_34_dev) & [linux loongarch-next branch](https://github.com/loongson/linux/tree/loongarch-next)
 
 How to use:
 
-1. Clone this repository
-2. Run `submodules.sh` and `patch.sh`
-3. Build [patched crosstool-ng with loongarch support](https://github.com/jiegec/crosstool-ng)
-4. Run `ct-ng build`
+1. Build [patched crosstool-ng with loongarch support](https://github.com/jiegec/crosstool-ng/tree/loongarch)
+2. Clone this repository
+3. Run `submodules.sh`: clone submodules from TUNA mirrors and then fetch from loongson repo
+4. Run `patch.sh`: apply patches for crosstool-ng bug: [crosstool-ng issue #1564](https://github.com/crosstool-ng/crosstool-ng/issues/1564)
+4. Run `ct-ng build`: about 11 minutes in a decent server
 5. Find your loongarch64 toolchain at `~/x-tools/loongarch64-unknown-linux/gnu`
