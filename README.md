@@ -2,6 +2,11 @@
 
 Build loongarch64-unknown-linux-gnu toolchain with crosstool-ng.
 
+It uses:
+
+1. Upstream gcc 13.0.0 & binutils-gdb 2.38.50
+2. Loongson glibc & linux
+
 How to use:
 
 1. Clone this repository
