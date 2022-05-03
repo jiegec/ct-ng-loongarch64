@@ -15,3 +15,6 @@ This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 #define	__GLIBC__	2
 #define	__GLIBC_MINOR__	35
+#define LINUX_VERSION_MAJOR 5
+#define LINUX_VERSION_PATCHLEVEL 17
+#define LINUX_VERSION_SUBLEVEL 0
