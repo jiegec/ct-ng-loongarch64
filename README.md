@@ -4,7 +4,7 @@ Build loongarch64-unknown-linux-gnu toolchain with crosstool-ng.
 
 It contains:
 
-1. Upstream gcc 13.0.0 & binutils-gdb 2.38.50
+1. Upstream gcc 12.1.0 release & binutils-gdb 2.38.50 from git
 2. Loongson [glibc loongarch_2_36_upstream_v3 branch](https://github.com/loongson/glibc/tree/loongarch_2_36_upstream_v3) & [linux loongarch-next branch](https://github.com/loongson/linux/tree/loongarch-next)
 
 How to use:
