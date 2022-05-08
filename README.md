@@ -9,9 +9,7 @@ It contains:
 
 How to use:
 
-1. Build [patched crosstool-ng with loongarch support](https://github.com/jiegec/crosstool-ng/tree/loongarch)
+1. Build [patched crosstool-ng with loongarch & gcc 12.1.0 support](https://github.com/jiegec/crosstool-ng/tree/loongarch)
 2. Clone this repository
-3. Run `submodules.sh`: clone submodules from TUNA mirrors and then fetch from loongson repo
-4. Run `patch.sh`: apply patches for crosstool-ng bug: [crosstool-ng issue #1564](https://github.com/crosstool-ng/crosstool-ng/issues/1564)
-5. Run `ct-ng build`: about 11 minutes in a decent server
-6. Find your loongarch64 toolchain at `~/x-tools/loongarch64-unknown-linux-gnu`: about 360MB in size
+3. Run `ct-ng build`: about 11 minutes in a decent server
+4. Find your loongarch64 toolchain at `~/x-tools/loongarch64-unknown-linux-gnu`: about 360MB in size

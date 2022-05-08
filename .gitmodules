@@ -1,3 +1,0 @@
-[submodule "gcc"]
-	path = gcc
-	url = https://mirrors.tuna.tsinghua.edu.cn/git/gcc.git
