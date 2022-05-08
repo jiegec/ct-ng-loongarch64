@@ -1,12 +1,3 @@
-[submodule "glibc"]
-	path = glibc
-	url = https://mirrors.tuna.tsinghua.edu.cn/git/glibc.git
-[submodule "binutils-gdb"]
-	path = binutils-gdb
-	url = https://mirrors.tuna.tsinghua.edu.cn/git/binutils-gdb.git
-[submodule "linux"]
-	path = linux
-	url = https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
 [submodule "gcc"]
 	path = gcc
 	url = https://mirrors.tuna.tsinghua.edu.cn/git/gcc.git
