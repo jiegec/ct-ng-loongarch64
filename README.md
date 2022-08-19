@@ -8,7 +8,7 @@ It contains:
 
 How to use:
 
-1. Build [patched crosstool-ng with loongarch & gcc 12.1.0 support](https://github.com/jiegec/crosstool-ng/tree/loongarch)
+1. Build [crosstool-ng master branch](https://github.com/crosstool-ng/crosstool-ng/tree/master)
 2. Clone this repository
-3. Run `ct-ng build`: about 11 minutes in a decent server
-4. Find your loongarch64 toolchain at `~/x-tools/loongarch64-unknown-linux-gnu`: about 360MB in size
+3. Run `ct-ng build`: about 10 minutes in a decent server
+4. Find your loongarch64 toolchain at `~/x-tools/loongarch64-unknown-linux-gnu`: about 340MB in size
